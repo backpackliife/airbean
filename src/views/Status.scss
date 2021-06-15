@@ -1,0 +1,54 @@
+.status {
+  position: fixed;
+  background-color: var(--accent);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1001;
+  padding: 4em;
+  text-align: center;
+
+  .status-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+  }
+
+  .button {
+    background-color: var(--light);
+    color: var(--primary);
+  }
+
+  .ok-button {
+    margin-top: auto;
+  }
+
+  .order-info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .order-label {
+    opacity: 0.75;
+    font-weight: 500;
+    margin-bottom: 0.4em;
+  }
+  .order-number {
+    font-weight: 700;
+  }
+  .eta {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin: 1em 0;
+  }
+
+  img {
+    margin: 4em 0;
+    width: 100%;
+    max-width: 400px;
+  }
+}

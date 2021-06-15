@@ -1,0 +1,21 @@
+.user {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  img {
+    border-radius: 200px;
+    width: 100px;
+  }
+
+  .name {
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-top: 0.8em;
+  }
+  .title {
+    font-weight: 600;
+    opacity: 0.75;
+    margin-top: 0.4em;
+  }
+}

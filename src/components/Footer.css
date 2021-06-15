@@ -1,0 +1,12 @@
+.footer {
+  overflow: hidden;
+  height: 100px;
+}
+
+.footer .background-pattern {
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  width: 100%;
+  transform: rotate(180deg);
+}

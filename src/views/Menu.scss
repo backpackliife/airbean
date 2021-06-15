@@ -1,0 +1,48 @@
+.menu {
+  h1 {
+    text-align: center;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-flow: column;
+
+    .menu-item {
+      display: flex;
+      padding: 1.4em 0;
+      align-items: center;
+
+      .add-button {
+        padding: 0.2em;
+        border-radius: 200px;
+        width: 38px;
+        height: 38px;
+        text-align: center;
+        font-size: 1.5em;
+      }
+
+      .item-info {
+        display: flex;
+        flex-flow: column;
+        margin-left: 1em;
+      }
+
+      .title,
+      .price {
+        font-weight: 700;
+        font-size: 1.4em;
+        margin-bottom: auto;
+      }
+
+      .price {
+        margin-left: auto;
+      }
+
+      .description {
+        font-weight: 500;
+        opacity: 0.75;
+        font-size: 0.8em;
+      }
+    }
+  }
+}

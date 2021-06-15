@@ -1,0 +1,23 @@
+.author {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 4em;
+  padding-bottom: 2em;
+
+  img {
+    border-radius: 200px;
+    width: 100px;
+  }
+
+  .name {
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-top: 0.4em;
+  }
+  .title {
+    font-weight: 600;
+    opacity: 0.5;
+    margin-top: 0.4em;
+  }
+}
